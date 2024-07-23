@@ -1,4 +1,4 @@
-# Ticketmaestro 🎫
+c# Ticketmaestro 🎫
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 
@@ -13,6 +13,7 @@ Customers in the North West region need a way to discover their local events. We
 - Get into pairs
 - One person _fork_ this repo
 - Check you can run a codespace for this repo
+- Install the dependencies in your codespace (`npm install`)
 - Run `npm run dev` to start your development server
 
 ## Development server
@@ -29,10 +30,4 @@ You can start editing the page by modifying `src/app/page.js`. The page auto-upd
 
 ### Warmup
 
-- Someone share their screen
-- Visit the [ticketmaster website](https://www.ticketmaster.co.uk/search?q=jazz&sort=date&startDate=2024-08-26&endDate=2024-08-26&region=605)
-- Check you can view an event like this:
-![alt text](image.png)
-- Write down a list of all the **properties** of this event.
-E.g. event name, city, etc...
-- Create a JS file in this directory and create a [JS object](https://javascript.info/object) with the properties you listed in the previous step
+- Locate [`plan/prelude.md`](https://github.com/Ada-Apprenticeships/ticketmaestro/blob/main/plan/prelude.md) and make a start on the tasks in there.
