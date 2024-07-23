@@ -1,4 +1,4 @@
-c# Ticketmaestro 🎫
+# Ticketmaestro 🎫
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 
