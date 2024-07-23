@@ -1,9 +1,9 @@
-## Sub-goal: Update the event lists based on a search
+# Sub-goal: Update the event lists based on a search
 
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 
-### Learning objectives ✅
+## Learning objectives ✅
 
 - Implement a search bar so users can search by keyword
 
@@ -14,7 +14,7 @@ We can search by a keyword
 ![alt text](image.png)
 
 
-### Key concepts 🔑
+## Key concepts 🔑
 
 - query params
 - re-render
