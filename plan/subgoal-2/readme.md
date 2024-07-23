@@ -1,4 +1,4 @@
-# Sub-goal: Display a static "fake" list of event data
+# Sub-goal: Render a static list of event data
 
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
