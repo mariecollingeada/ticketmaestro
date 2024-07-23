@@ -5,12 +5,12 @@ export default function EventCard(props) {
     
     return <section className={style.eventcard}>
         <div>
-            <p>{props.month} 19</p>
+            <p>{props.month} {props.date}</p>
         </div>
         <div>
-            <p>Thursday - 19:00</p>
-            <p>London</p>
-            <p>Jazz Cafe</p>
+            <p>{props.day} - {props.time}</p>
+            <p>{props.city}</p>
+            <p>{props.venue}</p>
         </div>
     </section>
 }
