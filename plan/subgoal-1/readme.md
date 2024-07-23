@@ -28,7 +28,7 @@ We can render an event card component as below:
 ## Setup
 
 1. Locate the `app` directory inside the `src` directory
-1. Declare a function called `MyButton` as in the documentation in the [Creating and nesting component](https://react.dev/learn#components) inside `page.js`
+1. Inside `page.js`, declare a function called `MyButton` as in the documentation in the [Creating and nesting component](https://react.dev/learn#components)
 1. Nest `MyButton` somewhere inside `Page` and check it is rendered in your browser
-1. Create a `components` directory inside `app`
+1. Create a directory called `components` inside `app`
 1. Inside your `components` directory, create a file called `EventCard.jsx`
