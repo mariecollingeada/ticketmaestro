@@ -1,10 +1,11 @@
 
 import style from './event-card.module.css';
 
-export default function EventCard() {
+export default function EventCard(props) {
+    
     return <section className={style.eventcard}>
         <div>
-            <p>Sept 19</p>
+            <p>{props.month} 19</p>
         </div>
         <div>
             <p>Thursday - 19:00</p>
