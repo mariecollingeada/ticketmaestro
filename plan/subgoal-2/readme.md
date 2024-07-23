@@ -1,20 +1,19 @@
-## Sub-goal: Display a static "fake" list of event data
+# Sub-goal: Display a static "fake" list of event data
 
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 
 
-### Learning objectives ✅
+## Learning objectives ✅
 
 - Describe and explain a 1-2-1 mapping
 - Explain the meaning of static
 - Transform a list of data into a list of components
 
-### Key concepts 🔑
+## Key concepts 🔑
 
 - 1-to-1 mapping
 - static vs dynamic
-
 
 ## Acceptance criteria
 
