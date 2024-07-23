@@ -5,7 +5,7 @@ Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 ### Learning objectives ✅
 
 - Retrieve data from an API by calling a relevant API endpoint
-- Fetch and display data from a web API
+- Display data from a web API
 - Identify when and where data is being fetched inside a React component
 
 ### Key concepts 🔑
