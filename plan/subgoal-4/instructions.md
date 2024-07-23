@@ -22,3 +22,7 @@ We can search by a keyword
 
 ## Setup
 
+1. Create a file called `SearchBar` in your `components` directory and declare a `SearchBar` functional component
+2. Inside `SearchBar` return a form component with a single text input and an on submit button
+3. Render the `SearchBar` component in your page to check it is displayed in the browser
+
