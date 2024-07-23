@@ -1,5 +1,19 @@
-🎟️ Ticketmaster events
+# Ticketmaestro 🎫
 
+Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
+
+## Problem
+
+Customers in the North West region need a way to discover their local events. We need a web interface for customers to search and view event details in their local area. Ticketmaster has an API it uses to expose event listing data in the UK: we're going to build something that resembles the [ticketmaster website](https://www.ticketmaster.co.uk/search?q=jazz&sort=date&startDate=2024-08-26&endDate=2024-08-26&region=605)
+
+## Setup and warmup
+
+### Setup
+
+- Get into pairs
+- One person _fork_ this repo
+- Check you can run a codespace for this repo
+- Run `npm run dev` to start your development server
 
 ## Development server
 
@@ -11,24 +25,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.js`. The page auto-updates as you edit the file.
 
+### Warmup
 
-## Get started
-
-Head to `plan/prelude.md` for instructions on how to get started in this project
-
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Someone share their screen
+- Visit the [ticketmaster website](https://www.ticketmaster.co.uk/search?q=jazz&sort=date&startDate=2024-08-26&endDate=2024-08-26&region=605)
+- Check you can view an event like this:
+![alt text](image.png)
+- Write down a list of all the **properties** of this event.
+E.g. event name, city, etc...
+- Create a JS file in this directory and create a [JS object](https://javascript.info/object) with the properties you listed in the previous step
