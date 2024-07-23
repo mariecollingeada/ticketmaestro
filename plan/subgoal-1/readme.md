@@ -1,8 +1,8 @@
-## Sub-goal: Implement an event card component 📇
+# Sub-goal: Implement an event card component 📇
 
 Preview me! `⇧⌘V` (Mac)  or `Ctrl+Shift+V` (Windows)
 
-### Learning objectives ✅
+## Learning objectives ✅
 
 - Implement a functional component
 - Describe and explain the meaning of component
@@ -16,7 +16,7 @@ We can render an event card component as below:
 ![alt text](image.png)
 
 
-### Key concepts 🔑
+## Key concepts 🔑
 
 - component
 - function
