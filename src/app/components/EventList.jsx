@@ -1,41 +1,19 @@
 import EventCard from './EventCard.jsx';
 
-export default function EventList() {
-  let events = [
-    {
-      key: 1,
-      name: 'Live from the Lawn - Jazz Afternoon Tea',
-      month: 'Aug',
-      day: '26',
-      time: '7:00pm',
-      location: 'Manchester',
-      venue: 'Down Hall Hotel & Spa',
-      onPartnerSite: true,
-      url: '#',
-    },
-    {
-      key: 2,
-      name: 'Filipe Catto Plays Gal Costa',
-      month: 'Dec',
-      day: '11',
-      time: '6:00pm',
-      location: 'London',
-      venue: 'Jazz Cafe',
-      onPartnerSite: false,
-      url: '#',
-    },
-    {
-      key: 3,
-      name: 'Filipe Catto Plays Gal Costa - Restaurant Tables',
-      month: 'Dec',
-      day: '1',
-      time: '2:00pm',
-      location: 'Manchester',
-      venue: 'Jazz Cafe',
-      onPartnerSite: false,
-      url: '#',
-    },
-  ];
+console.log(process.env.TICKETMASTER_API_KEY + "API KEY");
+
+async function fetchEvents() {
+  const response = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?apikey=${process.env.TICKETMASTER_API_KEY}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch events');
+  }
+  let data = await response.json();
+  return data._embedded.events;
+}
+
+export default async function EventList() {
+  let events = await fetchEvents();
+
   return (
     <div className="event-list">
       {events.map((event) => (
